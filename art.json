@@ -1,0 +1,18 @@
+[{
+	"id":"10000000",
+	"author":"Dummy author",
+	"text":"this is basic text that will not be read by anyone",
+	"date":"09/02/2020",
+	"category":"none",
+	"tags":"none"
+
+},
+{
+	"id":"10000000"
+	"author":"Dummy author",
+	"text":"this is basic text that will not be read by anyone",
+	"date":"09/02/2020",
+	"category":"none",
+	"tags":"nano"
+	}
+]
