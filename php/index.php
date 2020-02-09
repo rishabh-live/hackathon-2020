@@ -1,15 +1,12 @@
 <?php
-	//session_start();
-	if (isset($_SESSION["username"])) {
-		# code...
-		header("Location: http://localhost/final_files/php/panel");
-	}
+	
 
 	$newotp = 1;
-	if (isset($_REQUEST['send'])) {
+	$status = "true";
+	if (isset($_GET['email'])) {
 		# code...
 		$newotp = rand(100000,999999);
-		$myfile = fopen("otp.txt", "w") or die("Unable to open file!");
+		$myfile = fopen("otp.txt", "w+") or die("Unable to open file!");
 		$txt = $newotp;
 		fwrite($myfile, $txt);
 
@@ -30,7 +27,58 @@
       return $response;
       }
 
-      $send = send_sms("SMTNWA","8986194738","Hello Admin. ! Your Login OTP is SMIT-".$newotp,4);
+      $send = send_sms("SMTNWA",$_REQUEST['phone'],"Hello Admin.! Your Login OTP is SMIT-".$newotp, 4);
+      //EMAIL SEND
+      require './PHPMailer/PHPMailerAutoload.php';
+
+
+    $id = uniqid(); 
+// Edit this path if PHPMailer is in a different location.
+
+$mail = new PHPMailer;
+$mail->isSMTP();
+
+
+
+$mail->SMTPSecure = 'tls';
+$mail->Host = 'smtp.gmail.com';
+$mail->Port = 587; 
+$mail->SMTPAuth = true; // Whether you need to login. This is almost always required.
+$mail->Username = "noreply.smtnwa@gmail.com"; // Your Gmail address.
+$mail->Password = "Corona@123"; // Your Gmail login password or App Specific Password.
+
+/*
+ * Message Configuration
+ */
+
+$mail->setFrom('noreply.smtnwa@gmail.com', 'SMITSONIAN AUTOMATED Email Service' ); // Set the sender of the message.
+$mail->addAddress($_REQUEST['email'], 'SMITSONIAN Administrator'); // Set the recipient of the message.
+$mail->Subject = 'RE: OTP Requested(Request ID. - '.$id.')'; // The subject of the message.
+
+/*
+ * Message Content - Choose simple text or HTML email
+ */
+ 
+// Choose to send either a simple text email...
+//$mail->Body = 'This is a plain-text message body'; // Set a plain text body.
+
+// ... or send an email with HTML.
+$mail->msgHTML("Hello Admin.! Your Login OTP is SMIT-".$newotp."<br><i><b>Note:</b>This is system generated Email. Please don't reply.</i>");
+// Optional when using HTML: Set an alternative plain text message for email clients who prefer that.
+//$mail->AltBody = 'This is a plain-text message body'; 
+
+// Optional: attach a file
+//$mail->addAttachment('images/phpmailer_mini.png');
+
+if ($mail->send()) {
+    //echo "Your message was sent successfully!";
+  echo "<script>alert('Mail Sent')</script>";
+} else {
+    //echo "Mailer Error: " . $mail->ErrorInfo;
+  echo "<script>alert('Mail not Sent')</script>";
+}
+
+     
 	}
 
 	if (isset($_REQUEST['verify'])) {
@@ -114,7 +162,13 @@ if ($otp == $_REQUEST['verify']) {
 							<input type="submit" name="submit">
 						</label>
 					</form>-->
-
+<div class="phoneNo">
+	<p>
+		<form action="./" method="get">
+			<input type="number" name="phone" placeholder="Mobile no."><input type="email" name="email" placeholder="E-Mail"><input type="submit" name="sendSubmit" value="Send OTP">
+		</form>
+	</p>
+</div>
 					<div class="otp">
 						<form action="./" method="get">
 						<label>SMIT-
@@ -127,9 +181,7 @@ if ($otp == $_REQUEST['verify']) {
 						</form>
 					</div>
 
-					<p>
-						<a href="./?send=otp"><button>New OTP</button></a>
-					</p>
+					
 				</div>
 			</center>
 		</div>
@@ -143,6 +195,20 @@ if ($otp == $_REQUEST['verify']) {
 	?>
 
 	</label>
+
+	<center>
+		<div>
+			<p>
+				<label><h4>NOTE:</h4></label>
+				<p>
+					<i>
+				The above used mobile no. and email login service is just here for demostrative purpose.
+					 The final product will have admin specific Phone No. And Email to login. 
+					</i>
+				</p>
+			</p>
+		</div>
+	</center>
 </center>
 </body>
 </html>
