@@ -112,12 +112,12 @@
               <div class="col-xs-6 col-md-3">
                 <h6>Categories</h6>
                 <ul class="footer-links">
-                  <li><a href="#">C</a></li>
-                  <li><a href="#">UI Design</a></li>
-                  <li><a href="#">PHP</a></li>
-                  <li><a href="#">Java</a></li>
-                  <li><a href="#">Android</a></li>
-                  <li><a href="#">Templates</a></li>
+                  <li><a href="#">Ran</a></li>
+                  <li><a href="#">out</a></li>
+                  <li><a href="#">of</a></li>
+                  <li><a href="#">time</a></li>
+                  <li><a href="#">timed</a></li>
+                  <li><a href="#">out</a></li>
                 </ul>
               </div>
 
