@@ -81,13 +81,13 @@ error_reporting(0);
 
     <div class="row">
       <div class="col-sm-8">
-        <img class="container" id="biggest_image">
+        <img class="container">
           <img src="https://images.pexels.com/photos/3635300/pexels-photo-3635300.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Homecoming" style="width:100%;" >
-          <div class="bottom-left" id="art_header1">
+          <div class="bottom-left">
           <h2 >The road not taken? </h2>
         </div>
-        <div class="bottom-centered" id="art_header2">
-            <p>We have always been saddled with doubts about the paths that we..</p>
+        <div class="bottom-centered" >
+            <h4>We have always been saddled with doubts about the paths that we..</h4>
         </div>
       </div>
 
@@ -112,9 +112,9 @@ error_reporting(0);
   <div class="col-md-4 mb-5">
         <div class="card h-100">
           <div class="card-body">
-            <h6 class="card-title"><?php echo $characters[$i]["title"];?></h6>
-            <p class="card-text"><?php $in = $characters[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
-          </div>
+            <h6 class="cartle" style="font-size:26px; color:#444; font-weight:bold;"><?php echo $characters[$i]["title"];?></h6>
+            <i><p class="cardxt" style="font-size:20px; color:grey;"><?php $in = $characters[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
+          </i></div>
           <div class="card-footer">
             <a href="./?id=<?php echo $characters[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
           </div>
@@ -185,7 +185,7 @@ error_reporting(0);
 
 
 <div class="row">
-    <h1 id="very_special">LifeStyle</h1>
+    <h1 id="very_special"><center><u><b>LifeStyle</u></b></center></h1>
     <div class="col-sm=4">
       <div class="container">
         <div class="row">
@@ -218,9 +218,9 @@ error_reporting(0);
               <div class="col-md-4 mb-5">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h6 class="card-title"><?php echo $lifestyle[$i]["title"]; ?></h6>
-                    <p class="card-text"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
-                  </div>
+                    <h6 class="cardttke" style="font-size:26px; color:#444; font-weight:bold"><?php echo $lifestyle[$i]["title"]; ?></h6>
+                  <i>  <p class="cardtet" style="font-size:20px; color:grey"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
+                </i>  </div>
                   <div class="card-footer">
                     <a href="/?id=<?php echo $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
                   </div>
@@ -237,7 +237,7 @@ error_reporting(0);
 
 
     <div class="row">
-      <h1 id="very_special">&nbsp;Sports</h1>
+      <h1 id="very_special">&nbsp;<center><u><b>Sports</u></b></center></h1>
       <div class="col-sm=4">
         <div class="container">
 <?php
@@ -268,9 +268,9 @@ error_reporting(0);
               <div class="col-md-4 mb-5">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h6 class="card-title"><?php echo $lifestyle[$i]["title"]; ?></h6>
-                    <p class="card-text"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
-                  </div>
+                    <h6 class="cardtitlsdf" style="font-size:26px; color:#444; font-weight:bold;"><?php echo $lifestyle[$i]["title"]; ?></h6>
+                  <i> <p class="cardtxt" style="font-size:20px; color:grey;"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
+              </i>    </div>
                   <div class="card-footer">
                     <a href="/?id=<?php echo $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
                   </div>
@@ -283,12 +283,34 @@ error_reporting(0);
         </div>
       </div>
 
+      <h1 id="very_special">  <center><u><b>Picture of the ....</u></b></center></h1>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="container">
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <p><i><h3> Day </h3> </i></p>
+            <img src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <p><i> <h3>Month </h3></i> </p>
+            <img src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+          </div>
+
+        </div>
+      </div>
+
 
 
 
 
       <div class="row">
-        <h1 id="very_special">&nbsp;&nbsp;Opinion</h1>
+        <h1 id="very_special">&nbsp;&nbsp;<center><u><b>Opinion</u></b></center></h1>
 
           <div class="container">
             <div class="row">
@@ -320,9 +342,9 @@ error_reporting(0);
               <div class="col-md-4 mb-5">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h6 class="card-title"><?php echo $lifestyle[$i]["title"]; ?></h6>
-                    <p class="card-text"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
-                  </div>
+                    <h4 class="cacrdTitle" style="font-size:26px; color:#444; font-weight:bold;"><?php echo $lifestyle[$i]["title"]; ?></h4>
+                    <i><p class="cardText" style="font-size:20px; color:grey;"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
+    </i>              </div>
                   <div class="card-footer">
                     <a href="/?id=<?php echo $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
                   </div>
@@ -338,40 +360,13 @@ error_reporting(0);
 
 
 
-<h1 id="very_special">  Picture of the...</h1>
-    <div class="row">
-      <div class="col-sm-3">
-        <div class="container">
-    </div>
-  </div>
-</div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-      <p> Day </p>
-      <img src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-      <p> Week </p>
-      <img src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-      <p> Month </p>
-      <img src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-      <p> Year </p>
-      <img src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-    </div>
-  </div>
-</div>
 
 </div>
 
 
 
-
+</div>
 
 <!-- Site footer -->
 <footer class="site-footer">
