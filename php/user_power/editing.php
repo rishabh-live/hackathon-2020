@@ -160,7 +160,9 @@ $characters[$index]["picture"] = $image;
       <input type="hidden" value="<?php echo $_REQUEST['index']; ?>" name="index">
 
       <center>
-    <input type="submit" value="SUBMIT" name="submit" style="width:200px;">
+        <a href="http://localhost/hackathon-2020/php/panel/index.php">
+    <input type="button" value="SUBMIT" name="submit" style="width:200px;">
+  </a>
   </center>
       </form>
     </div>

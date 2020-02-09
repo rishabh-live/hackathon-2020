@@ -19,6 +19,13 @@
 </head>
 <body>
 <div class="alert alert-success">
+  <div class="alert alert-success">
+    <div class="alert alert-success">
+      <div class="alert alert-success">
+        <div class="alert alert-success">
+          <div class="alert alert-success">
+            <div class="alert alert-success">
+    
   <strong>Success!</strong> Indicates a successful or positive action.
 </div>
 <a href=" http://localhost/final_files/php/panel">GO BACK TO PANEL</a>

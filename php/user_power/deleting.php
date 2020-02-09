@@ -30,7 +30,7 @@ file_put_contents('art.json',json_encode($characters));
 
 
    <h1>SUCCESS</h1> <?php
-    header("Location: http://localhost/final_files/php/user_power/success.php");
+      header("Location: http://localhost/hackathon-2020/php/panel");
     ?>
 
 </body>

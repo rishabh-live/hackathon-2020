@@ -31,6 +31,6 @@
 
     <?php
 
-        header("Location: http://localhost/final_files/php/panel");
+        header("Location: http://localhost/hackathon-2020/php/panel");
     ?>
     </body></html>
