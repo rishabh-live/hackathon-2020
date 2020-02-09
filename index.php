@@ -113,7 +113,7 @@ error_reporting(0);
         <div class="card h-100">
           <div class="card-body">
             <h2 class="card-title"><?php echo $characters[$i]["title"];?></h2>
-            <p class="card-text"><?php echo $characters[$i]["body"];?></p>
+            <p class="card-text"><?php $in = $characters[$i]["body"];$out = strlen($in) > 50 ? substr($in,0,50)."..." : $in;?></p>
           </div>
           <div class="card-footer">
             <a href="./?id=<?php echo $characters[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
