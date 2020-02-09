@@ -1,0 +1,302 @@
+.navbar{
+  background-color: black;
+  color:white;
+}
+body{
+  background: url(https://images.squarespace-cdn.com/content/v1/58a5b151ff7c50c87f2bec90/1488225966465-0HJNTN5U0TFPAPWE5GII/ke17ZwdGBToddI8pDm48kFpMX3xNTiJ3K2ARERDRu9d7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jAoOkRmPE63FUjiJOEKAz6CWiIXCa_EZdV2f9jqcEhicpkgyNdjLnHuUHgFJG3ySQ/contact_us_background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 10px;
+
+}
+.jumbotron{
+  font-family: 'Anton', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color:white;
+  text-shadow: 4px 4px black;
+  background-color: #1b1c1c;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+.glyphicon.glyphicon-user{
+  font-size: 30px;
+  position: absolute;
+  top: 70px;
+  left:220px;
+  /* margin-bottom: 20px; */
+}
+.btn.btn-default{
+  margin:0 500px 0 500px;
+}
+#p1{
+color:white;
+}
+#feedback{
+  text-align: left;
+  height: 150px;
+}
+.btn.btn-success{
+  background-color: Green;
+  box-shadow: 0 0 2px 2px white;
+  border:0px solid white;
+  margin-bottom: 20px;
+}
+#con1{
+  background-color: rgba(27, 28, 28,.4);
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+
+/* title of the news bottoms ones */
+.card-title{
+    font-size:300%;
+}
+
+.card-text{
+  font-size:150%;
+}
+
+
+#footer_copy{
+  font-size:150%;
+}
+
+.btn-sm{
+  font-size:220%;
+}
+/* footer */
+.site-footer
+{
+  background-color:#26272b;
+  padding:0px 0 20px 0;
+  font-size:15px;
+  line-height:24px;
+
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px;
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear;
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe;
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px;
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998;
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced;
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6;
+}
+.social-icons a.youtube:hover
+{
+  background-color:red;
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:bold;
+  }
+}
+.heading{
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: bold;
+  color:white;
+}
+.btn.btn-primary{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: green
+}
+#name{
+  margin-bottom: 10px;
+}
+#email{
+  margin-bottom:10px;
+}
+#subject{
+  margin-bottom: 10px;
+}
+#message{
+  height: 100px;
+}
+.container{
+  margin-bottom: 0px;
+  padding-top: 20px;
+}
+.jumbotron{
+  margin-top: 50px;
+
+}
+h2{
+  color:white;
+}
+.msg{
+  color:white;
+}
+#name{
+  margin-left: 150px;
+  background-color: rgba(7,7,8,.8);
+}
+#email{
+  margin-left: 150px;
+  background-color: rgba(7,7,8,.8);
+}
+#subject{
+  margin-left: 150px;
+  background-color: rgba(7,7,8,.8);
+}
+#message{
+  margin-left: 150px;
+  background-color: rgba(7,7,8,.8);
+}
+label{
+  color: white;
+  margin-left: 150px;
+}
