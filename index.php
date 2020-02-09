@@ -87,7 +87,7 @@ error_reporting(0);
           <h2 >The road not taken? </h2>
         </div>
         <div class="bottom-centered" >
-            <h4>We have always been saddled with doubts about the paths that we..</h4>
+            <h4>We have always been saddled with doubts about the paths that we..</h3>
         </div>
       </div>
 
@@ -383,12 +383,12 @@ Read one and explore more about our glorious institution.
         <div class="col-xs-6 col-md-3">
           <h6>Categories</h6>
           <ul class="footer-links">
-            <li><a href="#">C</a></li>
-            <li><a href="#">UI Design</a></li>
-            <li><a href="#">PHP</a></li>
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Android</a></li>
-            <li><a href="#">Templates</a></li>
+            <li><a href="#">These</a></li>
+            <li><a href="#">Arent</a></li>
+            <li><a href="#">Working</a></li>
+            <li><a href="#">Yet</a></li>
+            <li><a href="#">Need</a></li>
+            <li><a href="#">Time</a></li>
           </ul>
         </div>
 
