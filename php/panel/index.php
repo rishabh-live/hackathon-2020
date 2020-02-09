@@ -34,15 +34,15 @@ if (isset($_SESSION["username"])) {
 </head>
 <body>
 	<div class="container">
-	<form method="get" action="http://localhost/final_files/php/user_power/make.php">
+	<form method="get" action="http://localhost/hackathon-2020/php/user_power/make.php">
     <button type="submit">Make</button>
 </form>
 
-<form method="get" action="http://localhost/final_files/php/user_power/edit.php">
+<form method="get" action="http://localhost/hackathon-2020/php/user_power/edit.php">
 	<button type="submit">Edit</button>
 </form>
 
-<form method="get" action="http://localhost/final_files/php/user_power/delete.php">
+<form method="get" action="http://localhost/hackathon-2020/php/user_power/delete.php">
 	<button type="submit">Delete</button>
 </form>
 

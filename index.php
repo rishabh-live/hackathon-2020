@@ -67,7 +67,7 @@ error_reporting(0);
           <li><a href="pirvacy\privacy.html">Privacy Policy</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->F
+    </div><!-- /.container-fluid -->
   </nav>
 <div class="box">
   <img src="images.png" alt="">
