@@ -218,7 +218,7 @@ error_reporting(0);
               <div class="col-md-4 mb-5">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h2 class="card-title"><?php echo $lifestyle[$i]["title"]; ?></h2>
+                    <h6 class="card-title"><?php echo $lifestyle[$i]["title"]; ?></h6>
                     <p class="card-text"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
                   </div>
                   <div class="card-footer">
@@ -268,7 +268,7 @@ error_reporting(0);
               <div class="col-md-4 mb-5">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h2 class="card-title"><?php echo $lifestyle[$i]["title"]; ?></h2>
+                    <h6 class="card-title"><?php echo $lifestyle[$i]["title"]; ?></h6>
                     <p class="card-text"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
                   </div>
                   <div class="card-footer">
@@ -320,7 +320,7 @@ error_reporting(0);
               <div class="col-md-4 mb-5">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h2 class="card-title"><?php echo $lifestyle[$i]["title"]; ?></h2>
+                    <h6 class="card-title"><?php echo $lifestyle[$i]["title"]; ?></h6>
                     <p class="card-text"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
                   </div>
                   <div class="card-footer">
