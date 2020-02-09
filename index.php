@@ -67,7 +67,7 @@ error_reporting(0);
           <li><a href="pirvacy\privacy.html">Privacy Policy</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->F
+    </div><!-- /.container-fluid -->
   </nav>
 <div class="box">
   <img src="images.png" alt="">
@@ -112,8 +112,8 @@ error_reporting(0);
   <div class="col-md-4 mb-5">
         <div class="card h-100">
           <div class="card-body">
-            <h2 class="card-title"><?php echo $characters[$i]["title"];?></h2>
-            <p class="card-text"><?php echo $characters[$i]["body"];?></p>
+            <h6 class="card-title"><?php echo $characters[$i]["title"];?></h6>
+            <p class="card-text"><?php $in = $characters[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
           </div>
           <div class="card-footer">
             <a href="./?id=<?php echo $characters[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
@@ -195,7 +195,7 @@ error_reporting(0);
           $j=0;
             while ($j<=$size) {
               # code...
-              for ($i=$size-1; $i >= 0 ; $i--) {
+              for ($i=0; $i <=$size ; $i++) {
                 # code...
 
                 if ($characters[$i]["cat"] == "lifestyle") {
@@ -209,20 +209,20 @@ error_reporting(0);
             }
 
 
-            for ($i=sizeof($lifestyle); $i > sizeof($lifestyle)-3 ; $i--) {
+            for ($i=sizeof($lifestyle)-1; $i >= sizeof($lifestyle)-3 ; $i--) {
               # code...
-
+              //print_r($lifestyle);
 
 
           ?>
               <div class="col-md-4 mb-5">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h2 class="card-title"><?php $lifestyle[$i]["title"]; ?></h2>
-                    <p class="card-text"><?php $lifestyle[$i]["body"];?></p>
+                    <h2 class="card-title"><?php echo $lifestyle[$i]["title"]; ?></h2>
+                    <p class="card-text"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
                   </div>
                   <div class="card-footer">
-                    <a href="/?id=<?php $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
+                    <a href="/?id=<?php echo $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
                   </div>
                 </div>
               </div>
@@ -240,12 +240,12 @@ error_reporting(0);
       <h1 id="very_special">&nbsp;Sports</h1>
       <div class="col-sm=4">
         <div class="container">
-          <?php
+<?php
           $lifestyle = array();
           $j=0;
             while ($j<=$size) {
               # code...
-              for ($i=$size-1; $i >= 0 ; $i--) {
+              for ($i=0; $i <=$size ; $i++) {
                 # code...
 
                 if ($characters[$i]["cat"] == "sports") {
@@ -259,26 +259,25 @@ error_reporting(0);
             }
 
 
-            for ($i=sizeof($lifestyle); $i > sizeof($lifestyle)-3 ; $i--) {
+            for ($i=sizeof($lifestyle)-1; $i >= sizeof($lifestyle)-3 ; $i--) {
               # code...
-
+              //print_r($lifestyle);
 
 
           ?>
               <div class="col-md-4 mb-5">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h2 class="card-title"><?php $lifestyle[$i]["title"]; ?></h2>
-                    <p class="card-text"><?php $lifestyle[$i]["body"];?></p>
+                    <h2 class="card-title"><?php echo $lifestyle[$i]["title"]; ?></h2>
+                    <p class="card-text"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
                   </div>
                   <div class="card-footer">
-                    <a href="/?id=<?php $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
+                    <a href="/?id=<?php echo $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
                   </div>
                 </div>
               </div>
 
            <?php } ?>
-
               </div>
 
         </div>
@@ -293,12 +292,12 @@ error_reporting(0);
 
           <div class="container">
             <div class="row">
-                  <?php
+<?php
           $lifestyle = array();
           $j=0;
             while ($j<=$size) {
               # code...
-              for ($i=$size-1; $i >= 0 ; $i--) {
+              for ($i=0; $i <=$size ; $i++) {
                 # code...
 
                 if ($characters[$i]["cat"] == "opinion") {
@@ -312,20 +311,20 @@ error_reporting(0);
             }
 
 
-            for ($i=sizeof($lifestyle); $i > sizeof($lifestyle)-3 ; $i--) {
+            for ($i=sizeof($lifestyle)-1; $i >= sizeof($lifestyle)-3 ; $i--) {
               # code...
-
+              //print_r($lifestyle);
 
 
           ?>
               <div class="col-md-4 mb-5">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h2 class="card-title"><?php $lifestyle[$i]["title"]; ?></h2>
-                    <p class="card-text"><?php $lifestyle[$i]["body"];?></p>
+                    <h2 class="card-title"><?php echo $lifestyle[$i]["title"]; ?></h2>
+                    <p class="card-text"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
                   </div>
                   <div class="card-footer">
-                    <a href="/?id=<?php $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
+                    <a href="/?id=<?php echo $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
                   </div>
                 </div>
               </div>
