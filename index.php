@@ -116,7 +116,7 @@ error_reporting(0);
             <i><p class="cardxt" style="font-size:20px; color:grey;"><?php $in = $characters[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
           </i></div>
           <div class="card-footer">
-            <a href="./?id=<?php echo $characters[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
+            <a href="./php/user_power/blog.php?id=<?php echo $characters[$i]["id"];?>" class="btn btn-primary btn-sm">Read More</a>
           </div>
         </div>
   </div>
@@ -222,7 +222,7 @@ error_reporting(0);
                   <i>  <p class="cardtet" style="font-size:20px; color:grey"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
                 </i>  </div>
                   <div class="card-footer">
-                    <a href="/?id=<?php echo $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
+                    <a href="./php/user_power/blog.php?id=<?php echo $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">Read More</a>
                   </div>
                 </div>
               </div>
@@ -272,7 +272,7 @@ error_reporting(0);
                   <i> <p class="cardtxt" style="font-size:20px; color:grey;"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
               </i>    </div>
                   <div class="card-footer">
-                    <a href="/?id=<?php echo $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
+                    <a href="./php/user_power/blog.php?id=<?php echo $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">Read More</a>
                   </div>
                 </div>
               </div>
@@ -346,7 +346,7 @@ error_reporting(0);
                     <i><p class="cardText" style="font-size:20px; color:grey;"><?php $in = $lifestyle[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
     </i>              </div>
                   <div class="card-footer">
-                    <a href="/?id=<?php echo $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
+                    <a href="./php/user_power/blog.php?id=<?php echo $lifestyle[$i]["id"];?>" class="btn btn-primary btn-sm">Read More</a>
                   </div>
                 </div>
               </div>
