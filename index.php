@@ -112,13 +112,8 @@ error_reporting(0);
   <div class="col-md-4 mb-5">
         <div class="card h-100">
           <div class="card-body">
-<<<<<<< HEAD
             <h6 class="card-title"><?php echo $characters[$i]["title"];?></h6>
             <p class="card-text"><?php $in = $characters[$i]["body"];$out =  substr($in,0,50)."..."; echo $out;?></p>
-=======
-            <h2 class="card-title"><?php echo $characters[$i]["title"];?></h2>
-            <p class="card-text"><?php $in = $characters[$i]["body"];$out = strlen($in) > 50 ? substr($in,0,50)."..." : $in;?></p>
->>>>>>> d712941a800dc49355b55afb7816abb4897c709c
           </div>
           <div class="card-footer">
             <a href="./?id=<?php echo $characters[$i]["id"];?>" class="btn btn-primary btn-sm">More Info</a>
