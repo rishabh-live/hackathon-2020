@@ -53,7 +53,7 @@ error_reporting(0);
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="http://localhost/Hackathon/Homepage/index.php">SMITSONIAN</a>
+        <a class="navbar-brand" href="http://localhost/hackathon-2020/index.php">SMITSONIAN</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
