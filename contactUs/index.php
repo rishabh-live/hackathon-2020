@@ -1,10 +1,10 @@
-<?php 
+<?php
 if(isset($_REQUEST['submit']))
   {
         require './PHPMailer/PHPMailerAutoload.php';
 
 
-    $id = uniqid(); 
+    $id = uniqid();
 // Edit this path if PHPMailer is in a different location.
 
 $mail = new PHPMailer;
@@ -14,7 +14,7 @@ $mail->isSMTP();
 
 $mail->SMTPSecure = 'tls';
 $mail->Host = 'smtp.gmail.com';
-$mail->Port = 587; 
+$mail->Port = 587;
 $mail->SMTPAuth = true; // Whether you need to login. This is almost always required.
 $mail->Username = "noreply.smtnwa@gmail.com"; // Your Gmail address.
 $mail->Password = "Corona@123"; // Your Gmail login password or App Specific Password.
@@ -30,14 +30,14 @@ $mail->Subject = 'RE:'.$_REQUEST['subject'].'(Token No. - '.$id.')'; // The subj
 /*
  * Message Content - Choose simple text or HTML email
  */
- 
+
 // Choose to send either a simple text email...
 //$mail->Body = 'This is a plain-text message body'; // Set a plain text body.
 
 // ... or send an email with HTML.
 $mail->msgHTML("Name :-".$_REQUEST['name']."<br>Email :- ".$_REQUEST['email']."<br> Message :- ".$_REQUEST['message']."<br>");
 // Optional when using HTML: Set an alternative plain text message for email clients who prefer that.
-//$mail->AltBody = 'This is a plain-text message body'; 
+//$mail->AltBody = 'This is a plain-text message body';
 
 // Optional: attach a file
 //$mail->addAttachment('images/phpmailer_mini.png');
@@ -58,8 +58,8 @@ if ($mail->send()) {
 
 
 
-   
-    
+
+
   }
 ?>
 <!DOCTYPE html>
@@ -85,17 +85,17 @@ if ($mail->send()) {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://localhost\D-CoderS_Hackathon_Template\Application%20Code\final_files\index.php">SMITSONIAN</a>
+          <a class="navbar-brand" href="http://localhost/hackathon-2020/index.php">SMITSONIAN</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
-            <li><a href="http://localhost\D-CoderS_Hackathon_Template\Application%20Code\about.html">About</a></li>
-              <li><a href="http://localhost\D-CoderS_Hackathon_Template\Application%20Code\gallery.html">Gallery</a></li>
-              <li><a href="http://localhost\D-CoderS_Hackathon_Template\Application%20Code\final_files\php\index.php">Login</a></li>
-              <li><a href="pirvacy\privacy.html">Privacy Policy</a></li>
+            <li><a href="http://localhost/hackathon-2020/about.php">About</a></li>
+              <li><a href="http://localhost/hackathon-2020/gallery.html">Gallery</a></li>
+              <li><a href="http://localhost/hackathon-2020/php/index.php">Login</a></li>
+              <li><a href="http://localhost/hackathon-2020/privacy/privacy.html">Privacy Policy</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->

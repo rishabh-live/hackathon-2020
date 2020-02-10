@@ -51,18 +51,18 @@ $size=sizeof($characters);
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://localhost/Hackathon/Homepage/index.php">SMITSONIAN</a>
+          <a class="navbar-brand" href="http://localhost/hackathon-2020/index.php">SMITSONIAN</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
-            <li><a href="http://localhost/Hackathon/about.html">About</a></li>
-            <li><a href="http://localhost/Hackathon/contact.html">Contact</a></li>
-            <li><a href="http://localhost/Hackathon/gallery.html">Gallery</a></li>
-            <li><a href="php\index.php">Login</a></li>
-            <li><a href="pirvacy\privacy.html">Privacy Policy</a></li>
+            <li><a href="http://localhost/hackathon-2020/about.php">About</a></li>
+            <li><a href="http://localhost/hackathon-2020/contactUs/index.php">Contact</a></li>
+            <li><a href="http://localhost/hackathon-2020/gallery.html">Gallery</a></li>
+            <li><a href="http://localhost/hackathon-2020/php/index.php">Login</a></li>
+            <li><a href="http://localhost/hackathon-2020/privacy/privacy.html">Privacy Policy</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
