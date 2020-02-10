@@ -113,18 +113,17 @@ $size=sizeof($characters);
 Read one and explore more about our glorious institution.
 </p>
       </div>
-
-        <div class="col-xs-6 col-md-3">
-          <h6>Categories</h6>
-          <ul class="footer-links">
-            <li><a href="#">C</a></li>
-            <li><a href="#">UI Design</a></li>
-            <li><a href="#">PHP</a></li>
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Android</a></li>
-            <li><a href="#">Templates</a></li>
-          </ul>
-        </div>
+      <div class="col-xs-6 col-md-3">
+        <h6>Categories</h6>
+        <ul class="footer-links">
+          <li><a href="#">Ran</a></li>
+          <li><a href="#">Out</a></li>
+          <li><a href="#">of</a></li>
+          <li><a href="#">Time</a></li>
+          <li><a href="#">Timed</a></li>
+          <li><a href="#">Out</a></li>
+        </ul>
+      </div>
 
         <div class="col-xs-6 col-md-3">
           <h6>Quick Links</h6>
