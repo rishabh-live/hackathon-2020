@@ -202,7 +202,8 @@ if ($otp == $_REQUEST['verify']) {
 				<label><h4>NOTE:</h4></label>
 				<p>
 					<i>
-			Enter your "MObile No." and "Email ID" above, you will get a unique OTP/password there which you have to enter in the box given above. Once you are verified you will be able to add, modify, and delete posts.
+			Enter your "MObile No." and "Email ID" above, you will get a unique OTP/password there which you have to enter in the box given above. Once you do that you will be able to add, modify, and delete posts.
+			Dont worry if the page refreshes and the password and username info is gone.Just type in the code that you recieved on your phone/email and press submit.
 
 					</i>
 				</p>
