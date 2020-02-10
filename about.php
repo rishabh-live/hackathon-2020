@@ -3,7 +3,7 @@
   <head >
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="http://localhost\D-CoderS_Hackathon_Template\Application%20Code\about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
     <title>About SMIT</title>
@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
-            <li><a href="http://localhost\D-CoderS_Hackathon_Template\Application%20Code\contact.html">Contact</a></li>
+            <li><a href="contactUs\PHPMailer\index.php">Contact</a></li>
               <li><a href="http://localhost\D-CoderS_Hackathon_Template\Application%20Code\gallery.html">Gallery</a></li>
               <li><a href="http://localhost\D-CoderS_Hackathon_Template\Application%20Code\final_files\php\index.php">Login</a></li>
               <li><a href="pirvacy\privacy.html">Privacy Policy</a></li>
@@ -92,18 +92,15 @@ Read one and explore more about our glorious institution.
       </div>
 
         <div class="col-xs-6 col-md-3">
-          <div class="col-xs-6 col-md-3">
-            <h6>Categories</h6>
-            <ul class="footer-links">
-              <li><a href="#">These</a></li>
-              <li><a href="#">Arent</a></li>
-              <li><a href="#">Working</a></li>
-              <li><a href="#">Yet</a></li>
-              <li><a href="#">Need</a></li>
-              <li><a href="#">Time</a></li>
-            </ul>
-          </div>
-
+          <!-- <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a href="#">C</a></li>
+            <li><a href="#">UI Design</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">Android</a></li>
+            <li><a href="#">Templates</a></li>
+          </ul> -->
         </div>
 
         <div class="col-xs-6 col-md-3">

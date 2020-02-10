@@ -22,6 +22,8 @@
 
 
   <title><?php echo $characters[$i]["tiltle"]?></title>
+  <link rel="icon" href="black_alphabet_letter_s.jpg" type="image/gif">
+
 
 
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

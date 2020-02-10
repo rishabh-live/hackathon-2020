@@ -5,6 +5,6 @@
 		header("Location: http://localhost/htdocs/");
 	}
 else{
-	header("Location: http://localhost/htdocs/");	
+	header("Location: http://localhost/htdocs/");
 }
 ?>
