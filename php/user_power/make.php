@@ -73,7 +73,7 @@
       <label id="Title">
         <input type="text" name="title" id="formFeild" placeholder="Title" style="width:350px;">
       </label>
-      <h3>Enter the text of the paragraph</h3>
+      <h3>Enter the text of the paragraph(word limit:2000)</h3>
       <label id="body">
         <textarea name="body" id="formFeild" placeholder="Content" style="width:350px; height:350px"> </textarea>
       </label>
