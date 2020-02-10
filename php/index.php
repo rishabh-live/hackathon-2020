@@ -197,13 +197,13 @@ if ($otp == $_REQUEST['verify']) {
 	</label>
 
 	<center>
-		<div>
+		<div style="width: 60%;">
 			<p>
 				<label><h4>NOTE:</h4></label>
 				<p>
 					<i>
 			Enter your "MObile No." and "Email ID" above, you will get a unique OTP/password there which you have to enter in the box given above. Once you are verified you will be able to add, modify, and delete posts.
-			
+
 					</i>
 				</p>
 			</p>
