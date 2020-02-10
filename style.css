@@ -4,8 +4,8 @@
 }
 .jumbotron{
   box-shadow: 0px 0px 2px 2px red;
-  background-color: black;
-  color:darkred;
+  background-color: #242425;
+  color:white;
 
 }
 p{
@@ -14,7 +14,7 @@ p{
 }
 h1{
   font-size: 45px;
-  text-shadow: 2px 2px white;
+  text-shadow: 2px 2px black;
   font-weight: bold;
 }
 h2{
@@ -24,7 +24,7 @@ h2{
   font-weight: bold;
 }
 body {
-  background-color: #242425;
+  background-color: #261F2D;
 }
 #art_header1{
   font-size: 40px ;
