@@ -1,5 +1,5 @@
 <?php
-	
+
 
 	$newotp = 1;
 	$status = "true";
@@ -32,7 +32,7 @@
       require './PHPMailer/PHPMailerAutoload.php';
 
 
-    $id = uniqid(); 
+    $id = uniqid();
 // Edit this path if PHPMailer is in a different location.
 
 $mail = new PHPMailer;
@@ -42,7 +42,7 @@ $mail->isSMTP();
 
 $mail->SMTPSecure = 'tls';
 $mail->Host = 'smtp.gmail.com';
-$mail->Port = 587; 
+$mail->Port = 587;
 $mail->SMTPAuth = true; // Whether you need to login. This is almost always required.
 $mail->Username = "noreply.smtnwa@gmail.com"; // Your Gmail address.
 $mail->Password = "Corona@123"; // Your Gmail login password or App Specific Password.
@@ -58,14 +58,14 @@ $mail->Subject = 'RE: OTP Requested(Request ID. - '.$id.')'; // The subject of t
 /*
  * Message Content - Choose simple text or HTML email
  */
- 
+
 // Choose to send either a simple text email...
 //$mail->Body = 'This is a plain-text message body'; // Set a plain text body.
 
 // ... or send an email with HTML.
 $mail->msgHTML("Hello Admin.! Your Login OTP is SMIT-".$newotp."<br><i><b>Note:</b>This is system generated Email. Please don't reply.</i>");
 // Optional when using HTML: Set an alternative plain text message for email clients who prefer that.
-//$mail->AltBody = 'This is a plain-text message body'; 
+//$mail->AltBody = 'This is a plain-text message body';
 
 // Optional: attach a file
 //$mail->addAttachment('images/phpmailer_mini.png');
@@ -78,7 +78,7 @@ if ($mail->send()) {
   echo "<script>alert('Mail not Sent')</script>";
 }
 
-     
+
 	}
 
 	if (isset($_REQUEST['verify'])) {
@@ -172,16 +172,16 @@ if ($otp == $_REQUEST['verify']) {
 					<div class="otp">
 						<form action="./" method="get">
 						<label>SMIT-
-							
+
 								<input type="text" name="verify" id="otpBox">
-							
+
 						</label>
 
 						<input type="submit" name="submit" >
 						</form>
 					</div>
 
-					
+
 				</div>
 			</center>
 		</div>
@@ -197,13 +197,13 @@ if ($otp == $_REQUEST['verify']) {
 	</label>
 
 	<center>
-		<div>
+		<div style="width: 60%;">
 			<p>
 				<label><h4>NOTE:</h4></label>
 				<p>
 					<i>
-				The above used mobile no. and email login service is just here for demostrative purpose.
-					 The final product will have admin specific Phone No. And Email to login. 
+			Enter your "MObile No." and "Email ID" above, you will get a unique OTP/password there which you have to enter in the box given above. Once you are verified you will be able to add, modify, and delete posts.
+
 					</i>
 				</p>
 			</p>

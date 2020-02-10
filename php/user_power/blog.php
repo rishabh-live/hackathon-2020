@@ -6,7 +6,7 @@
     for ($i=0; $i<$size ; $i++) {
       if ($characters[$i]["id"] == $_REQUEST["id"]) {
         # code...
-        
+
 ?>
 
 
@@ -17,8 +17,8 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="keywords" content="<?php echo $characters[$i]["tags"];?>">
-  
+  <meta name="keywords" content="<?php echo $characters[$i]["tag"];?>">
+
 
 
   <title><?php echo $characters[$i]["tiltle"]?></title>
