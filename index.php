@@ -84,10 +84,10 @@ error_reporting(0);
         <img class="container">
           <img src="https://images.pexels.com/photos/3635300/pexels-photo-3635300.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Homecoming" style="width:100%;" >
           <div class="bottom-left">
-          <h2 >The road not taken? </h2>
+          <h2 >This News Feed is Dynamically Mannaged by a Database...</h2>
         </div>
         <div class="bottom-centered" >
-            <h4>We have always been saddled with doubts about the paths that we..</h3>
+            <h4>which is under only ADMIN's control.</h4>
         </div>
       </div>
 
@@ -139,26 +139,26 @@ error_reporting(0);
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
   <div class="item active">
-    <img src="https://images.pexels.com/photos/1407346/pexels-photo-1407346.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Chania">
+    <img src="image1.png" alt="Chania">
     <div class="carousel-caption">
-      <h3>Los Angeles</h3>
-      <p>LA is always so much fun!</p>
+      <h3>Enterepreneurship World Cup 2019' organised bi AIC-SMUTBI</h3>
+
     </div>
   </div>
 
   <div class="item">
-    <img src="https://images.pexels.com/photos/1407346/pexels-photo-1407346.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Chicago">
+    <img src="image2.jpg" alt="Chicago">
     <div class="carousel-caption">
-      <h3>Chicago</h3>
-      <p>Thank you, Chicago!</p>
+      <h3>AP LAB</h3>
+
     </div>
   </div>
 
   <div class="item">
-    <img src="https://images.pexels.com/photos/1407346/pexels-photo-1407346.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="New York">
+    <img src="image3.jpg" alt="New York">
     <div class="carousel-caption">
-      <h3>New York</h3>
-      <p>We love the Big Apple!</p>
+      <h3>Birds Eye View of Campus</h3>
+      
     </div>
   </div>
 </div>
