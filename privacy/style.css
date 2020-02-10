@@ -1,7 +1,30 @@
+#con{
+  background-color: black;
+  box-shadow: 0 0 3px 3px white;
+}
+.jumbotron{
+  box-shadow: 0px 0px 2px 2px red;
+  background-color: #242425;
+  color:white;
 
+}
+p{
+  font-size: 22px;
+  color:white;
+}
+h1{
+  font-size: 45px;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+}
+h2{
+  font-size: 30px;
+  color:white;
+  font-style: italic;
+  font-weight: bold;
+}
 body {
-
-  background-color:  #fcfcfc;
+  background-color: #261F2D;
 }
 #art_header1{
   font-size: 40px ;
@@ -268,9 +291,7 @@ body {
 #link1{
   background-color: #000000;
 }
-body{
-  background-color: #eadede;
-}
+
 .footer{
   background-color: #000000;
 }
