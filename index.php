@@ -297,11 +297,11 @@ error_reporting(0);
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <p><i><h3> Day </h3> </i></p>
-            <img src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+            <img src="https://1d4vws37vmp124vlehygoxxd-wpengine.netdna-ssl.com/wp-content/uploads/2015/12/1921JerusalemLoC-1.jpg">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <p><i> <h3>Month </h3></i> </p>
-            <img src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+            <img src="https://factsofindiablog.files.wordpress.com/2016/07/rocket-1.png?w=687">
           </div>
 
         </div>

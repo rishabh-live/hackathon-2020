@@ -3,11 +3,12 @@
   <head >
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="http://localhost\D-CoderS_Hackathon_Template\Application%20Code\about.css">
+    <link rel="stylesheet" href="http://localhost/hackathon-2020/about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
     <title>About SMIT</title>
     <link rel="icon" href="smit.jpg" type="image/gif">
+
   </head>
 
   <body>
@@ -22,17 +23,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://localhost\D-CoderS_Hackathon_Template\Application%20Code\final_files\index.php">SMITSONIAN</a>
+          <a class="navbar-brand" href="http://localhost/hackathon-2020/index.php">SMITSONIAN</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
-            <li><a href="contactUs\PHPMailer\index.php">Contact</a></li>
-              <li><a href="http://localhost\D-CoderS_Hackathon_Template\Application%20Code\gallery.html">Gallery</a></li>
-              <li><a href="http://localhost\D-CoderS_Hackathon_Template\Application%20Code\final_files\php\index.php">Login</a></li>
-              <li><a href="pirvacy\privacy.html">Privacy Policy</a></li>
+            <li><a href="http://localhost/hackathon-2020/about.php">About</a></li>
+            <li><a href="http://localhost/hackathon-2020/contactUs/index.php">Contact</a></li>
+            <li><a href="http://localhost/hackathon-2020/gallery.html">Gallery</a></li>
+            <li><a href="http://localhost/hackathon-2020/php/index.php">Login</a></li>
+            <li><a href="http://localhost/hackathon-2020/privacy/privacy.html">Privacy Policy</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
